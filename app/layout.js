@@ -4,6 +4,8 @@ import './globals.css';
 import Navbar from '@/components/navbar';
 import SmoothScrolling from '@/components/smoothscroll';
 import Footer from '../components/footer';
+import ScrollRevealSetup from '@/components/scrolreveal';
+import Contactinfo from '@/components/contactinfo';
 
 const playfair = Playfair_Display({
 	variable: '--font-playfair_display',
@@ -21,9 +23,11 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className={`${playfair.variable}  antialiased`}>
+				<ScrollRevealSetup />
 				<Navbar />
 				<SmoothScrolling>
 					{children}
+					<Contactinfo />
 					<Footer />
 				</SmoothScrolling>
 			</body>

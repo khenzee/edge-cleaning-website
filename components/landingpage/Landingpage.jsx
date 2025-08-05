@@ -12,7 +12,7 @@ const Landingpage = () => {
 	return (
 		<div>
 			{/* hero section */}
-			<section className="relative w-full text-secondary h-fit ">
+			<section className=" relative w-full text-secondary h-fit ">
 				<div className="absolute top-0 left-0 -z-10 w-full h-full overflow-hidden ">
 					<Image
 						src="/images/pics1.webp"
@@ -22,8 +22,8 @@ const Landingpage = () => {
 						className="h-full w-full object-cover brightness-30"
 					/>
 				</div>
-				<div className="h-full space-y-10 md:space-y-16 text-center pt-24 md:pt-32 pb-8 md:pb-4 ">
-					<div className="md:w-2xl lg:w-4xl mx-auto">
+				<div className="reveal h-full space-y-10 md:space-y-16 text-center pt-24 md:pt-32 pb-8 md:pb-4 ">
+					<div className=" md:w-2xl lg:w-4xl mx-auto">
 						<div>
 							<p className="text-sm font-semibold ">
 								Trusted by 200+ customers
@@ -33,6 +33,7 @@ const Landingpage = () => {
 							Experience Prestine Detailing Like Never
 							Before.
 						</h1>
+
 						<button className="hidden mt-8 md:inline-flex gap-4 hover:gap-6 transition-all duration-100 capitalize justify-center rounded-full items-center bg-secondary text-secondary-foreground pl-8 py-2 font-bold shadow-lg shadow-primary/30">
 							get a free quote
 							<span className="bg-secondary-foreground text-secondary p-2 rounded-full mr-2">
@@ -70,11 +71,11 @@ const Landingpage = () => {
 			</section>
 
 			{/* our services */}
-			<section className="space-y-8 lg:space-y-16 bg-muted">
+			<section className="reveal space-y-8 lg:space-y-16 bg-muted">
 				<div className=" inline-block border-b-4 pb-2 border-primary ">
 					<h4>our service</h4>
 				</div>
-				<div className="space-y-4 md:space-y-8 lg:w-2xl">
+				<div className=" space-y-4 md:space-y-8 lg:w-2xl">
 					<h2>
 						Discover our services and how we do it better.
 					</h2>
@@ -87,24 +88,26 @@ const Landingpage = () => {
 				<Services />
 			</section>
 			{/* how it works */}
-			<section className="bg-muted">
+			<section className=" bg-muted">
 				<Howitworks />
 			</section>
 			{/* testimonial */}
-			<section className="bg-foreground text-secondary space-y-8 lg:space-y-16 text-center ">
-				<div className=" inline-block border-b-4 pb-2 border-primary ">
-					<h4>testimonial</h4>
+			<section className=" bg-foreground text-secondary space-y-8 lg:space-y-16 text-center ">
+				<div className='reveal space-y-8'>
+					<div className=" inline-block border-b-4 pb-2 border-primary ">
+						<h4>testimonial</h4>
+					</div>
+					<div className="w-70 md:w-lg mx-auto">
+						<h2>see what our customers say.</h2>
+					</div>
 				</div>
-				<div className="w-70 md:w-lg mx-auto">
-					<h2>see what our customers say.</h2>
-				</div>
-				<div className="mx-auto md:mt-16">
+				<div className="mx-auto mt-16">
 					<TestimonialCarousel />
 				</div>
 			</section>
 			{/* faq section */}
-			<section className="relative bg-muted w-full grid lg:grid-cols-2  gap-10">
-				<div className="text-center lg:text-left">
+			<section className=" relative bg-muted w-full grid lg:grid-cols-2  gap-10">
+				<div className="reveal text-center lg:text-left">
 					<h2 className=" ">
 						Frequently asked
 						<span className="text-primary">questions</span>
@@ -128,7 +131,6 @@ const Landingpage = () => {
 					<Faq />
 				</div>
 			</section>
-			
 		</div>
 	);
 };

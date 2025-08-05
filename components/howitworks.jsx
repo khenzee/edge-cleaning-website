@@ -35,12 +35,12 @@ const steps = [
 const Howitworks = () => {
 	return (
 		<div>
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+			<div className="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 				<div className="space-y-8 md:col-span-2">
 					<div className=" inline-block border-b-4 pb-2 border-primary  ">
 						<h4>how it works</h4>
 					</div>
-					<div className="space-y-2 max-w-xl">
+					<div className="space-y-2 max-w-xl pb-8">
 						<h2>Get cleaner space in four steps</h2>
 						<p className="text-muted-foreground mt-2">
 							And sometimes, in as little as 24 hours.
@@ -54,7 +54,9 @@ const Howitworks = () => {
 						className="bg-background p-2 rounded-2xl flex flex-col "
 					>
 						<div className="py-4 px-4 space-y-2 rounded-lg">
-							<p className='text-4xl mb-6 text-muted-foreground font-light'>{step.number}</p>
+							<p className="text-4xl mb-6 text-muted-foreground font-light">
+								{step.number}
+							</p>
 							<h3>{step.title}</h3>
 							<p>{step.description}</p>
 						</div>
