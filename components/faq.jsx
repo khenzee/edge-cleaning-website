@@ -5,24 +5,30 @@ import { ChevronDown } from 'lucide-react';
 
 const faqData = [
 	{
-		question: 'Is it accessible?',
+		question: 'What areas do you service?',
 		answer:
-			'Yes. It adheres to the WAI-ARIA design pattern.',
+			'We provide deep cleaning services for both residential and commercial spaces across Washington.',
 	},
 	{
-		question: 'How do I use it?',
+		question: 'What is included in a deep cleaning?',
 		answer:
-			'You can use it by importing the Accordion component and its subcomponents from the ui/accordion module.',
+			'Our deep cleaning includes kitchens, bathrooms, living areas, bedrooms, and hard-to-reach spots — ensuring a thorough top-to-bottom clean.',
 	},
 	{
-		question: 'Can I customize the styles?',
+		question: 'Do I need to provide cleaning supplies?',
 		answer:
-			'Yes, you can customize the styles using Tailwind CSS classes or your own CSS.',
+			'No. We bring all professional-grade cleaning supplies and equipment to ensure the highest quality results.',
 	},
 	{
-		question: 'Does it support animations?',
+		question: 'How long does a deep cleaning take?',
 		answer:
-			'Yes, it supports animations using the GSAP library.',
+			'The duration depends on the size and condition of the space. On average, a full home deep clean takes 4–8 hours.',
+	},
+	{
+		question:
+			'Are your products safe for pets and children?',
+		answer:
+			'Yes, we use eco-friendly, non-toxic products that are safe for both pets and children.',
 	},
 ];
 

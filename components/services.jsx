@@ -4,19 +4,19 @@ import { Workcard } from './workcard';
 const servicesData = [
 	{
 		title: 'resitential cleaning',
-		image: 'pics1.webp',
+		image: 'pics2.webp',
 		descripton:
 			'Professional cleaning services for offices, homes, and commercial spaces - done right, every time.',
 	},
 	{
 		title: 'commercial cleaning',
-		image: 'pics1.webp',
+		image: 'pics3.webp',
 		descripton:
 			'Expert cleaning solutions for businesses, ensuring a spotless and healthy work environment.',
 	},
 	{
 		title: 'deep cleaning',
-		image: 'pics1.webp',
+		image: 'pics4.webp',
 		descripton:
 			'Thorough and detailed cleaning services for a pristine and hygienic space.',
 	},

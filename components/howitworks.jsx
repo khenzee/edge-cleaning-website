@@ -7,28 +7,28 @@ const steps = [
 		title: 'Share details',
 		description:
 			'Fill out a quick form with details about your space, schedule, and preferences.',
-		image: 'pics1.webp',
+		image: 'pics5.jpg',
 	},
 	{
 		number: '02',
 		title: 'Get quote',
 		description:
 			'We’ll send you a personalized estimate, no hidden fees, no upselling.',
-		image: 'pics1.webp',
+		image: 'pics6.jpg',
 	},
 	{
 		number: '03',
 		title: 'We clean',
 		description:
 			'Our professional team arrives on time, fully equipped to transform your space.',
-		image: 'pics1.webp',
+		image: 'pics7.webp',
 	},
 	{
 		number: '04',
 		title: 'You relax',
 		description:
 			'Enjoy a spotless home or workspace that looks, feels, and smells truly clean.',
-		image: 'pics1.webp',
+		image: 'pics8.jpg',
 	},
 ];
 
