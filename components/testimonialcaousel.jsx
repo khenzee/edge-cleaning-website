@@ -8,42 +8,46 @@ import Image from 'next/image';
 
 const testimonials = [
 	{
-		Name: 'Jane Doe',
-		role: 'CEO, Company X',
+		name: 'Maria Lopez',
 		quote:
-			'This service exceeded our expectations. The team was professional, efficient, and highly skilled.',
+			'Edge Cleaning transformed my home! Every corner sparkled, and the team was so professional and friendly.',
+		image:
+			'https://randomuser.me/api/portraits/women/44.jpg',
 	},
 	{
-		Name: 'John Smith',
-		role: 'CTO, Company Y',
+		name: 'David Carter',
 		quote:
-			'The results were outstanding. Their expertise really helped our business grow significantly.',
+			'Our office has never looked better. Their deep cleaning service made a huge difference for our work environment.',
+		image: 'https://randomuser.me/api/portraits/men/32.jpg',
 	},
 	{
-		Name: 'Sarah Johnson',
-		role: 'Head of Marketing, Company Z',
+		name: 'Sofia Hernandez',
 		quote:
-			'Working with them was seamless. We saw measurable results within weeks.',
+			'Hygiene is essential for our restaurant, and Edge Cleaning exceeded expectations. Spotless results every time.',
+		image:
+			'https://randomuser.me/api/portraits/women/68.jpg',
 	},
 	{
-		Name: 'Sarah Johnson',
-		role: 'Head of Marketing, Company Z',
+		name: 'James Wilson',
 		quote:
-			'Working with them was seamless. We saw measurable results within weeks.',
+			'They handle all our rental move-in/move-out cleanings. Reliable, thorough, and worth every penny.',
+		image: 'https://randomuser.me/api/portraits/men/45.jpg',
 	},
 	{
-		Name: 'Sarah Johnson',
-		role: 'Head of Marketing, Company Z',
+		name: 'Ana Martinez',
 		quote:
-			'Working with them was seamless. We saw measurable results within weeks.',
+			'Between work and family, I had no time. Edge Cleaning made my home fresh and organized — such a relief!',
+		image:
+			'https://randomuser.me/api/portraits/women/50.jpg',
 	},
 	{
-		Name: 'Sarah Johnson',
-		role: 'Head of Marketing, Company Z',
+		name: 'Carlos Rivera',
 		quote:
-			'Working with them was seamless. We saw measurable results within weeks.',
+			'Our gym needs daily sanitation. Edge Cleaning keeps it pristine, which our clients really appreciate.',
+		image: 'https://randomuser.me/api/portraits/men/60.jpg',
 	},
 ];
+
 
 export default function TestimonialCarousel() {
 	const [emblaRef, emblaApi] = useEmblaCarousel(
@@ -78,14 +82,14 @@ export default function TestimonialCarousel() {
 									</div>
 									<div className="p-4 rounded-b-lg w-full px-6 flex items-center justify-between self-start mt-auto">
 										<p className="font-semibold text-sm">
-											{t.Name}
+											{t.name}
 										</p>
 										<div className="overflow-hidden rounded-full w-10 h-10">
 											<Image
-												src="/images/pics1.webp"
+												src={t.image}
 												width={50}
 												height={50}
-												alt="picture"
+												alt={`${t.name}'s photo`}
 												className="w-full h-full object-cover"
 											/>
 										</div>
