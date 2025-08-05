@@ -89,6 +89,7 @@ export default function TestimonialCarousel() {
 												src={t.image}
 												width={50}
 												height={50}
+												unoptimized
 												alt={`${t.name}'s photo`}
 												className="w-full h-full object-cover"
 											/>
