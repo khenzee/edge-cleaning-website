@@ -30,7 +30,7 @@ const Contactinfo = () => {
 							href="tel:4258738592"
 							className="text-primary hover:underline"
 						>
-							(425) 873-8592
+							(425) 000-1232
 						</Link>
 					</p>
 					<p className="text-sm">
@@ -39,7 +39,7 @@ const Contactinfo = () => {
 							href="mailto:info@edgecleaningwa.com"
 							className="text-primary hover:underline"
 						>
-							info@edgecleaningwa.com
+							info@edgecleaningservice.com
 						</Link>
 					</p>
 				</div>
