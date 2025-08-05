@@ -3,7 +3,7 @@ import { Workcard } from './workcard';
 
 const servicesData = [
 	{
-		title: 'resitential cleaning',
+		title: 'residential cleaning',
 		image: 'pics2.webp',
 		descripton:
 			'Professional cleaning services for offices, homes, and commercial spaces - done right, every time.',
